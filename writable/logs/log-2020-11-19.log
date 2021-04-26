@@ -1,0 +1,30 @@
+CRITICAL - 2020-11-19 01:12:26 --> Undefined index: id_kategori
+#0 D:\Ampps\www\e-arsip\app\Views\user\v_index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Ampps\\www\\e-...', 43, Array)
+#1 D:\Ampps\www\e-arsip\system\View\View.php(246): include('D:\\Ampps\\www\\e-...')
+#2 D:\Ampps\www\e-arsip\system\Common.php(1119): CodeIgniter\View\View->render('user/v_index', Array, true)
+#3 D:\Ampps\www\e-arsip\app\Views\layout\v_content.php(3): view('user/v_index')
+#4 D:\Ampps\www\e-arsip\system\View\View.php(246): include('D:\\Ampps\\www\\e-...')
+#5 D:\Ampps\www\e-arsip\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\e-arsip\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\e-arsip\system\View\View.php(246): include('D:\\Ampps\\www\\e-...')
+#8 D:\Ampps\www\e-arsip\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\e-arsip\app\Controllers\User.php(22): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\e-arsip\system\CodeIgniter.php(922): App\Controllers\User->index()
+#11 D:\Ampps\www\e-arsip\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 D:\Ampps\www\e-arsip\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\e-arsip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-11-19 22:22:50 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Ampps\www\e-arsip\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/add')
+#1 D:\Ampps\www\e-arsip\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/add')
+#2 D:\Ampps\www\e-arsip\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\e-arsip\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\e-arsip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-19 22:23:10 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Ampps\www\e-arsip\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('user/add')
+#1 D:\Ampps\www\e-arsip\system\CodeIgniter.php(797): CodeIgniter\Router\Router->handle('user/add')
+#2 D:\Ampps\www\e-arsip\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\e-arsip\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\e-arsip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

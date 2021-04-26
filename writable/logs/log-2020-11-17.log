@@ -1,0 +1,12 @@
+CRITICAL - 2020-11-17 21:26:50 --> Declaration of App\Models\Model_kategori::delete($id_kategori) should be compatible with CodeIgniter\Model::delete($id = NULL, bool $purge = false)
+#0 D:\Ampps\www\e-arsip\app\Models\Model_kategori.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'D:\\Ampps\\www\\e-...', 5, Array)
+#1 D:\Ampps\www\e-arsip\system\Autoloader\Autoloader.php(365): require_once('D:\\Ampps\\www\\e-...')
+#2 D:\Ampps\www\e-arsip\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\e-...')
+#3 D:\Ampps\www\e-arsip\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#5 D:\Ampps\www\e-arsip\app\Controllers\Kategori.php(11): spl_autoload_call('App\\Models\\Mode...')
+#6 D:\Ampps\www\e-arsip\system\CodeIgniter.php(894): App\Controllers\Kategori->__construct()
+#7 D:\Ampps\www\e-arsip\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#8 D:\Ampps\www\e-arsip\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\e-arsip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

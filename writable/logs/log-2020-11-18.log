@@ -1,0 +1,7 @@
+CRITICAL - 2020-11-18 21:56:56 --> Undefined property: App\Controllers\Departement::$Model_kategori
+#0 D:\Ampps\www\e-arsip\app\Controllers\Departement.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\e-...', 49, Array)
+#1 D:\Ampps\www\e-arsip\system\CodeIgniter.php(922): App\Controllers\Departement->delete('4')
+#2 D:\Ampps\www\e-arsip\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Departement))
+#3 D:\Ampps\www\e-arsip\system\CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\e-arsip\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
